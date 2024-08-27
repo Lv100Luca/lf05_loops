@@ -1,8 +1,8 @@
-#Zahlenverarbeitung ** - ***
+# Zahlenverarbeitung ** - ***
 
 Die Klasse `NumberAnalyser` bietet verschiedene Methoden an, um Ganze Zahlen zu verarbeiten
 
-###Aufgaben
+### Aufgaben
 1. Implementiere in der Klasse `NumberAnalyser`die Methode `public int getGGT(int number1, int number2))`. 
 Sie ermittelt den größten gemeinsamen Teiler der beiden übergebenen Zahlen. Der ggT lässt sich ermitteln, 
 indem die kleinere der beiden Zahlen von der größeren abgezogen wird. Das Ergebnis wird dann in die Variable

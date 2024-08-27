@@ -1,4 +1,4 @@
-#Zählergesteuerte Schleife (for-Schleife)
+# Zählergesteuerte Schleife (for-Schleife)
 
 Die for-Schleife ist eine spezielle Variante einer while-Schleife und wird typischerweise zum Zählen benutzt. Genauso wie 
 while-Schleifen sind for-Schleifen abweisend, d.h. der Rumpf wird erst dann ausgeführt, wenn die Bedingung wahr ist.
@@ -6,7 +6,7 @@ Da die Schleifensteuerung über einen Zähler erfolgt, wird die for-Schleife imm
 gewünschten Wiederholungen des Anweisungsblocks **bekannt** ist. Die for-Schleife wird mit dem Schlüsselwort for 
 eingeleitet und durch einen dreiteiligen Schleifenkopf kontrolliert. Dieser Schleifenkopf steht in runden Klammern und 
 enthält die drei Elemente Initialisierung, Bedingung und Veränderung, die durch Semikolon voneinander getrennt werden.
-###Beispiel
+### Beispiel
 ```
 for (int i=1; i<=5; i++){
    System.out.println(i);
@@ -34,11 +34,11 @@ for (; i<=5; ){
 
 Möglichkeiten, die Laufvariable zu ändern:
 
-Befehl| Bedeutung
-------|------
-i++| i wird um 1 erhöht
-i--| i wird um 1 erniedrigt
-i -=2| i wird um 2 erniedrigt (verkürzte Schreibweise für i=i-2)
-i*=2| i wird mit 2 multipliziert (verkürzte Schreibweise für i=i*2)
-i/=2| i wird durch 2 dividiert (verkürzte Schreibweise für i=i/2)
-i %=3| i enthält den Rest bei der Division durch 3 (Modulo-Operation)
+|Befehl| Bedeutung|
+|------|------|
+|i++| i wird um 1 erhöht|
+|i--| i wird um 1 erniedrigt|
+|i -=2| i wird um 2 erniedrigt (verkürzte Schreibweise für i=i-2)|
+|i*=2| i wird mit 2 multipliziert (verkürzte Schreibweise für i=i*2)|
+|i/=2| i wird durch 2 dividiert (verkürzte Schreibweise für i=i/2)|
+|i %=3| i enthält den Rest bei der Division durch 3 (Modulo-Operation)|

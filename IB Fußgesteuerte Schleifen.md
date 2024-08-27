@@ -1,4 +1,4 @@
-#Fußgesteuerte Schleife (do-while-Schleife) 
+# Fußgesteuerte Schleife (do-while-Schleife) 
 
 Viele Probleme können nur durch eine **wiederholte** Ausführung bestimmter Anweisungen gelöst werden. 
 Die Wiederholung einer oder mehrerer Anweisungen nennt man **Schleife**. Bei den so genannten offenen Schleifen ist 
@@ -11,7 +11,7 @@ wird die Abbruchbedingung am Ende der Schleife geprüft. Solche Schleifen nennt 
 Solange die am Ende des Schleifenkörpers stehende Bedingung wahr ist, wird der Schleifenkörper durchlaufen. 
 **Diese Schleife wird somit mindestens einmal durchlaufen**.
 
-###Syntax der do-while-Schleife
+### Syntax der do-while-Schleife
 
 ```
 do{					
@@ -30,7 +30,7 @@ die der Schleife folgen, ausgeführt.
 
 Der Schleifenkörper kann beliebige Anweisungen enthalten; z.B. auch weitere do-while-Schleifen oder andere Kontrollstrukturen.
 
-###Code-Beispiel: 
+### Code-Beispiel: 
 
 Das folgende Programm addiert solange auf den Wert von number 10, wie der Wert kleiner ist als 100. 
 

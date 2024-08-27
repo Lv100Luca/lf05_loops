@@ -1,4 +1,4 @@
-#Kopfgesteuerte Schleife (while-Schleife)
+# Kopfgesteuerte Schleife (while-Schleife)
 
 Wie bei der do-while-Schleife werden bei der while-Schleife Anweisungen in Abhängigkeit von der Auswertung eines 
 Ausdrucks wiederholt. Im Unterschied zur do-while-Schleife handelt es sich bei der while-Schleife um eine **abweisende Schleife**, 
@@ -7,7 +7,7 @@ werden die Anweisungen der Schleife ausgeführt, andernfalls wird die Schleife b
 die Anweisungen in der while-Schleife kein einziges Mal ausgeführt werden. Das geschieht immer dann, wenn die erste 
 Auswertung des Ausdrucks den Wert false ergibt. 
  
-###Syntax der kopfgesteuerten Schleife
+### Syntax der kopfgesteuerten Schleife
 ```	
  while (Ausdruck){					
 	Anweisung 1; 
@@ -23,7 +23,7 @@ Wert liefert. Ist dieser true, werden die Anweisungen im Schleifenkörper ausgef
 Falls dieser den Wert false zurückliefert, wird der Schleifenkörper übergangen und die erste Anweisung nach der Schleife ausgeführt. 
 Bei Rückgabe von true wird der Schleifenkörper erneut abgearbeitet.
 
-###Code-Beispiel: 
+### Code-Beispiel: 
 
 Im Beispiel unten wird der Wert der Variablen i bei jedem Schleifendurchlauf ausgegeben und um eins erhöht. Die Schleife bricht ab, wenn i = 10 ist. 
 ```
@@ -47,7 +47,7 @@ Das Code-Snippet erzeugt die folgende Konsolenausgabe
 10
 ```
  
-###Endlosschleifen
+### Endlosschleifen
 
 Abbruchkriterien von Schleifen müssen so festgelegt werden, dass sie auch eintreten können. Ist dagegen ein Prüfausdruck
 immer true, handelt es sich um eine so genannte **Endlosschleife**: die Ausführung ihres Schleifenrumpfes wird nie beendet.
