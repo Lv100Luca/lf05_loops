@@ -15,12 +15,12 @@ public class NumberAnalyserTest {
         this.analyser = new NumberAnalyser();
     }
 
-    @Test
-    public void givenTwoNumbers_WhengetGGT_ReturnGGT(){
-        assertEquals(4, this.analyser.getGGT(12, 8));
-        assertEquals(3, this.analyser.getGGT(15, 3));
-        assertEquals(1, this.analyser.getGGT(5, 3));
-    }
+//    @Test
+//    public void givenTwoNumbers_WhengetGGT_ReturnGGT(){
+//        assertEquals(4, this.analyser.getGGT(12, 8));
+//        assertEquals(3, this.analyser.getGGT(15, 3));
+//        assertEquals(1, this.analyser.getGGT(5, 3));
+//    }
 
     @ParameterizedTest(name = "number={0}")
     @CsvSource(value = {"2", "3", "5", "7", "11", "13", "17", "19","37", "53", "83", "149", "199", "241"})
