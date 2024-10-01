@@ -13,6 +13,7 @@ public class DrawFigures {
 
     private String getClosingRow(char sign, int width) {
         // * * * * *
+        int abs = 1;
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < width; i++) {
             sb.append(sign);
@@ -89,6 +90,8 @@ public class DrawFigures {
             } else
                 sb.append(" ");
         }
+
+
 
         return sb.toString();
     }

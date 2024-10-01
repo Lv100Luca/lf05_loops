@@ -1,25 +1,16 @@
 package numberAnalyser;
 
-import java.util.ArrayList;
-
 public class NumberAnalyser {
 
     public int getGGT(int number1, int number2) {
-        var higher = Math.max(number1, number2); // 12
-        var lower = Math.min(number1, number2); // 8
-
-        var result = higher - lower; // 4
-
-        var ggt = result;
-        do {
-            higher = lower;
-            lower = result;
-
-            result = higher - lower;
-
-        } while (result != 0);
-
-        return ggt;
+        while (number1 != number2) {
+            if (number1 > number2) {
+                number1 = number1 - number2;
+            } else {
+                number2 = number2 - number1;
+            }
+        }
+        return number1;
     }
 
     public boolean isPrimeNumber(int number) {
@@ -49,10 +40,9 @@ public class NumberAnalyser {
     }
 
     public int getChecksum(int number) {
-        var result = 0;
-        int tmp = number;
+        int result = 0;
         while (number > 0) {
-            tmp = number % 10;
+            int tmp = number % 10;
             result += tmp;
             number /= 10;
         }
@@ -75,10 +65,9 @@ public class NumberAnalyser {
 
     private int calculateHappyNumberValue(int number) {
         var result = 0;
-        int tmp = number;
 
         while (number > 0) {
-            tmp = number % 10;
+            int tmp = number % 10;
             result += (int) Math.pow(tmp, 2);
             number /= 10;
         }
