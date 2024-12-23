@@ -7,10 +7,8 @@ public class Palindrom {
         var len = normalizedText.length();
         for (int index = 0; index < (len / 2) + 1; index++) {
             var reverseIndex = len - index - 1;
-            if (normalizedText.charAt(index) != normalizedText.charAt(reverseIndex)) {
+            if (normalizedText.charAt(index) != normalizedText.charAt(reverseIndex))
                 return false;
-            }
-
         }
         return true;
     }
