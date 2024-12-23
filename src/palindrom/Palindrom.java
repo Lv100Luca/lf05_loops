@@ -5,7 +5,7 @@ public class Palindrom {
         var normalizedText = text.toLowerCase().replace(" ", "");
 
         var len = normalizedText.length();
-        for (int index = 0; index < len; index++) {
+        for (int index = 0; index < (len / 2) + 1; index++) {
             var reverseIndex = len - index - 1;
             if (normalizedText.charAt(index) != normalizedText.charAt(reverseIndex)) {
                 return false;
